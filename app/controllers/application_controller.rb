@@ -1,6 +1,10 @@
 class ApplicationController < ActionController::Base
-	def new_cup
-		@new_cup = nil
+	def new
+		@cups.new
 	end
+
+	def create
+	end
+
 
 end
